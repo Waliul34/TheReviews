@@ -1,0 +1,144 @@
+.head{
+    top: 10%;
+    padding: 10px;
+    background-color: rgba(87, 1, 18, 0.597);
+    text-align: center;
+}
+
+.head-add-film{
+    top: 10%;
+    padding: 10px;
+    background-color: rgba(0, 149, 154, 0.005);
+    text-align: center;
+}
+
+.film-list{
+    padding: 20px;
+    min-height: 100vh;
+    position: relative;
+}
+
+.film-list-item{
+    position: relative;
+    padding: 20px;
+    margin: 25px;
+    background-color: rgba(99, 21, 37, 0.118);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.film-list-item-img{
+    width: 200px;
+    height: 240px;
+    object-fit: fill;
+    border-radius: 20px;
+    display: block;
+    margin-left: 140px;
+}
+
+.film-list-item-title{
+    font-size: 22px;
+    top: 25%;
+    left: 45%;
+    position: absolute;
+}
+
+.film-list-item-year{
+    top: 40%;
+    left: 45%;
+    font-size: 15px;
+    position: absolute;
+}
+
+.film-list-item-director{
+    top: 50%;
+    left: 45%;
+    font-size: 15px;
+    position: absolute;
+}
+
+.film-list-item-average-rating{
+    top: 60%;
+    left: 45%;
+    font-size: 17px;
+    position: absolute;
+    text-align: center;
+    width: 170px;
+    background-color: rgba(5, 100, 100, 0.489);
+}
+
+.film-list-item-total-reviews {
+    top: 70%;
+    left: 45%;
+    font-size: 15px;
+    position: absolute;
+}
+
+.film-list-item-published-at{
+    top: 70%;
+    left: 45%;
+    font-size: 15px;
+    position: absolute;
+}
+
+.review-list-item {
+    position: relative;
+    padding: 40px;
+    margin: 25px;
+    background-color: rgba(0, 94, 23, 0.529);
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+    position: absolute;
+    left: 49.5%;
+    bottom: 0%;
+    transform: translate(-49.5%, 0);
+  }
+  
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 255, 0.405);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    pointer-events: none;
+    cursor: default;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: rgb(53, 53, 53);}
+
+  .pagination a.disabled{
+    pointer-events: none;
+    cursor: default;
+    background-color: gray;
+  }
+
+.delete-btn {
+    padding: 10px;
+    background-color: #ed0404d8;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 80%;
+    left: 93%;
+    opacity: 1;
+}

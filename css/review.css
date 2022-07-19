@@ -1,0 +1,147 @@
+.min-height{
+    min-height: 88vh;
+    background-color: rgba(21, 137, 21, 0.13);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.head-section{
+    position: relative;
+    padding: 30px;
+}
+
+.review-title{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.review-img{
+    height: 270px;
+    width: 210;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.film-title{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    font-size: 19px;
+    left: 25%;
+}
+
+.director-name{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    font-size: 19px;
+    left: 25%;
+}
+
+.user-rating{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    font-size: 19px;
+    left: 25%;
+    width: 150px;
+    background-color: rgba(5, 100, 100, 0.489);
+}
+
+.publishing-date{
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    font-size: 19px;
+    left: 25%;
+}
+
+.user-name{
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    font-size: 19px;
+    left: 25%;
+}
+
+.body-section{
+    padding: 50px;
+}
+
+.review-desc{
+    padding: 20px;
+    border-style: inset;
+    width: 96%;
+    font-size: 21px;
+    border-radius: 10px;
+}
+
+.add-film-container{
+    min-height: 88vh;
+    background-color: rgba(21, 137, 21, 0.13);
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-form{
+    width: 60vw;
+    min-height: 60vh;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    padding: 40px 30px;
+}
+
+.input-group {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+.input-group input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: rgba(246, 253, 255, 0.8);
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus, .input-group input:valid {
+    border-color: #a29bfe;
+}
+
+.input-group .btn {
+    display: block;
+    width: 10%;
+    padding: 10px 15px;
+    text-align: center;
+    border: none;
+    background: #a29bfe;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    color: black;
+    cursor: pointer;
+    margin: 10px 0px;
+    width: 97%;
+    border-radius: 30px;
+    background: rgba(246, 253, 255, 0.8);
+}
