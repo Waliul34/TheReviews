@@ -23,7 +23,7 @@ if($_GET['p_id'] == "")
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>"Best anime out there."</title>
+    <title>"Review Details"</title>
 </head>
 
 <body>
